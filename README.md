@@ -441,14 +441,5 @@ new_test: $(SRC_DIR)/NewCacheTest.cpp $(INC_DIR)/NewCache.h $(SRC_DIR)/NewCache.
 3. **文档更新**: 修改功能时请同步更新相关文档
 4. **性能要求**: 核心操作时间复杂度必须为O(1)
 
-## 📄 许可证
-
-本项目采用开源许可证，具体请查看LICENSE文件。
-
-## 🙏 致谢
-
-感谢所有贡献者对本项目的支持和改进！
-
----
 
 **快速开始**：`make all && make test && make thread_test`
