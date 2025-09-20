@@ -1,0 +1,50 @@
+# 构建目录
+build/
+cmake_build/
+
+# 编译产生的可执行文件
+*.exe
+*.out
+*_test
+*_thread_test
+*Test
+
+# 对象文件
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# 日志文件
+*.log
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.cmake
+CTestTestfile.cmake
+Testing/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 调试文件
+*.dSYM/
+*.pdb
