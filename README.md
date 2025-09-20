@@ -286,8 +286,8 @@ g++ -std=c++17 -Wall -Wextra -O2 -Iinclude src/LruCacheThreadTest.cpp -o lru_thr
 ### 线程安全
 | 策略 | 线程安全模式 | 使用方式 |
 |------|-------------|----------|
-| LRU、FIFO、LFU | **内部同步** | 内部已实现`std::shared_mutex`线程安全，可直接使用 |
-| LRU-K | **内部同步** | 内部已实现线程安全，可直接在多线程环境使用 |
+| LRU、FIFO、LFU、LRU-K | **内部同步** | 内部已实现`std::shared_mutex`线程安全，可直接使用 |
+
 
 ### 内存管理
 - 使用RAII原则，自动管理内存，无需手动释放
